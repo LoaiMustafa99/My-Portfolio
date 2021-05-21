@@ -15,6 +15,9 @@ body {
 .clearfix {
     clear: both;
 }
+a{
+    text-decoration: none;
+}
 /* Start Settings Box */
 .settings-box {
     position: fixed;
@@ -192,10 +195,12 @@ body {
     padding: 10px;
 }
 .header-area .logo {
-    width: 300px;
-    padding: 15px;
+    padding: 7px 6px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    margin-bottom: 14px;
+    font-family: 'Nunito', sans-serif;
 }
 .header-area .link-container {
     width: 100%;
@@ -258,8 +263,9 @@ body {
     width: 95%;
 }
 .landing-page .introduction-text h1 {
-    font-size: 32px;
+    font-size: 59px;
     margin: 0 0 12px;
+    font-family: 'Nunito', sans-serif;
 }
 @media (max-width: 575px){
     .introduction-text h1 {
@@ -271,8 +277,9 @@ body {
 }
 .landing-page .introduction-text P {
     line-height: 1.7;
-    font-size: 20px;
+    font-size: 53px;
     margin: 0;
+    font-family: 'Nunito', sans-serif;
 }
 @media (max-width: 991px) {
     .header-area .links {
@@ -331,14 +338,14 @@ body {
 .about-us .info-box p {
     line-height: 1.8;
     color: #767676;
-    margin: 0;
+    margin-bottom: 15px;
 }
 .about-us .image-box {
     flex: 1;
     text-align: center;
 }
 .about-us .image-box img {
-    width: 250px;
+    width: 322px;
 }
 /* End About US */
 /* Start Our Skills */
@@ -634,6 +641,37 @@ body {
     color:#706F6F;
 }
 /* End Features */
+/* Start Resume */
+.resume{
+    background-color: #EEE;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.resume h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.resume p {
+    padding: 0 80px;
+    color: #666;
+    margin-bottom: 50px;
+}
+.resume .download-resume{
+    margin-top: 10px;
+    background: none;
+    color: var(--main--color);
+    border: 2px solid var(--main--color);
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.resume .download-resume:hover{
+    background: var(--main--color);
+    font-weight: bold;
+    color: #f2f2f2;
+    border: none;
+}
+/* End Resume */
 /* Start Testimonials */
 .testimonials {
     position: relative;
@@ -724,7 +762,17 @@ body {
     margin: 0;
 }
 /* End Testimonials */
-/* Start Cintact US */
+/* Start Contact MY */
+.contact-my {
+    padding: 33px;
+    text-align: center;
+    background: #8c8c95;
+    font-size: 26px;
+}
+.contact-my p a{
+    text-decoration: none;
+    color: #FF9800;
+}
 .contact {
     min-height: 600px;
     background-image: url("../images/contact.png");
@@ -828,20 +876,32 @@ body {
     .container {
         max-width: 540px;
     }
+    .contact-my{
+        font-size: 18px;
+    }
 }
 @media (min-width: 768px) { /* medium Devices => Tablets */
     .container {
         max-width: 720px;
+    }
+    .contact-my{
+        font-size: 18px;
     }
 }
 @media (min-width: 992px) { /* Desktops */
     .container {
         max-width: 960px;
     }
+    .contact-my{
+        font-size: 26px;
+    }
 }
 @media (min-width: 1200px) { /* Large Screens */
     .container {
         max-width: 1140px;
+    }
+    .contact-my{
+        font-size: 26px;
     }
 }
 /* Start Grid System */
