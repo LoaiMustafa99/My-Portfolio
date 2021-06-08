@@ -336,39 +336,13 @@ let ToggleBtn = document.querySelector(".toggle-menu");
 
 let tlinks = document.querySelector(".links");
 
-ToggleBtn.onclick = function (e) {
-
-    // Stop Propaction
-    e.stopPropagation();
-
-    //Toggle Class "menu-active" On Button
-    this.classList.toggle("menu-active");
-    
-    //Toggle Class "open" On Links
-    tlinks.classList.toggle("open");
-
-};
-
-// click Anywhere Outside Menu And Toggle Button
-document.addEventListener("click", (e) => {
-
-    if (e.target !== ToggleBtn && e.target !== tlinks){
-
-        // Check If menu Of Open
-        if (tlinks.classList.contains("open")) {
-
-            ToggleBtn.classList.remove("menu-active");
-
-            tlinks.classList.remove("open");
-        }
-
-    }
-
+var typed = new Typed('.animate', {
+    strings: [
+        "Web Developer",
+        "Freelancer",
+        "Web Designer"
+    ],
+    typeSpeed: 40,
+    backSpeed: 50,
+    loop: true
 });
-
-// stop Propagation on The Menu
-tlinks.onclick = function (e) {
-
-    e.stopPropagation();
-
-};

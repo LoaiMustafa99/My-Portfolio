@@ -1,5 +1,6 @@
-<?php include ("includes/header.php")?>
+<?php $indexstyle = true; include ("includes/header.php");?>
 
+<?php $tophome = true; require_once("includes/top_nav.php"); ?>
 <!-- Start Settings Box -->
 <div class="settings-box">
     <div class="toggle-settings">
@@ -49,46 +50,24 @@
     <div class="bullet" data-section=".timeline">
         <div class="tooltip">Timeline</div>
     </div>
+    <div class="bullet" data-section=".resume">
+        <div class="tooltip">My Resume</div>
+    </div>
     <div class="bullet" data-section=".features">
         <div class="tooltip">our Features</div>
     </div>
-    <div class="bullet" data-section=".testimonials">
-        <div class="tooltip">Testimonials</div>
-    </div>
-    <div class="bullet" data-section=".contact">
+    <div class="bullet" data-section=".contact-my">
         <div class="tooltip">Contact US</div>
     </div>
 </div>
 <!-- End Nav Bullets -->
 
 <!-- Start Landing Page -->
-<div class="landing-page">
+<div class="landing-page" data-vide-bg="180825_01_laptop">
     <div class="overlay"></div>
-    <div class="container">
-        <div class="header-area">
-            <div class="logo">LM</div>
-            <div class="link-container">
-                <ul class="links">
-                    <li><a href="#" class="active" data-section=".about-us">About</a></li>
-                    <li><a href="#" data-section=".skills">Skills</a></li>
-                    <li><a href="#" data-section=".gallery">Gallery</a></li>
-                    <li><a href="#" data-section=".timeline">Timeline</a></li>
-                    <li><a href="#" data-section=".resume">Resume</a></li>
-                    <li><a href="#" data-section=".features">Features</a></li>
-                    <li><a href="#" data-section=".testimonials">Testimonials</a></li>
-                    <li><a href="#" data-section=".contact-my">Contact Us</a></li>
-                </ul>
-                <button class="toggle-menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
-    </div>
     <div class="introduction-text">
-        <h1>I'm <span>Loai</span> Mustafa</h1>
-        <p>A Web Developer</p>
+        <h1>I'm Loai Mustafa</h1>
+        <p>I Am a <span class="animate"></span></p>
     </div>
 </div>
 <!-- End Landing Page -->
@@ -97,14 +76,14 @@
 <div class="container">
     <div class="about-us">
         <div class="info-box">
-            <h2>ABOUT MY</h2>
+            <h2 class="main-header"><span>ABOUT MY</span> </h2>
             <p>My name is Luay, I am 22 and I live in Amman, Jordan. I am single and I graduated with a master’s degree in computer science from Al-Bayt University, and at the moment I work web developer.
                 <br> My hobbies are swimming, horse riding and reading.</p>
 
             <p> My dream was from a young age to be a programmer. I pursued this dream and fulfilled it after trouble and exhaustion. Of course, I do not forget the encouragement of my father and mother.</p>
         </div>
         <div class="image-box">
-            <img src="images/IMG_20191218_134933_380.jpg" alt="">
+            <img src="images/my-photo.jpg" alt="">
         </div>
     </div>
 </div>
@@ -112,72 +91,116 @@
 
 <!-- Strat Our Skills -->
 <div class="skills">
-    <div class="container">
-        <h2>TECHNICAL SKILLS</h2>
-        <div class="skill-box">
-            <div class="name">HTML</div>
-            <div class="skill-progress">
-                <span data-progress="90%">90%</span>
+    <div class="containers">
+        <h2 class="main-header"><span>My SKILLS</span></h2>
+        <div class="my-skills">
+            <div class="skills-box" style="margin-right: 18px;">
+                <div class="skills-main-header">Technical Skills</div>
+                <div class="tec-skills">
+                    <div class="right">
+                        <div class="skill-box">
+                            <div class="name">
+                                <div class="lang">PHP</div>
+                                <div>80%</div>
+                            </div>
+                            <div class="skill-progress">
+                                <span data-progress="80%"></span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="name">
+                                <div class="lang">MySQL and SQL Commands</div>
+                                <div>70%</div>
+                            </div>
+                            <div class="skill-progress">
+                                <span data-progress="70%"></span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="name">
+                                <div class="lang">OOP and MVC Pattern</div>
+                                <div>75%</div>
+                            </div>
+                            <div class="skill-progress">
+                                <span data-progress="75%"></span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="name">
+                                <div class="lang">C++</div>
+                                <div>50%</div>
+                            </div>
+                            <div class="skill-progress">
+                                <span data-progress="50%"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="skill-box">
+                            <div class="name">
+                                <div class="lang">HTML and CSS</div>
+                                <div>75%</div>
+                            </div>
+                            <div class="skill-progress">
+                                <span data-progress="75%"></span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="name">
+                                <div class="lang">Javascript and JQuery</div>
+                                <div>45%</div>
+                            </div>
+                            <div class="skill-progress">
+                                <span data-progress="40%"></span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="name">
+                                <div class="lang">AJAX and JSON</div>
+                                <div>60%</div>
+                            </div>
+                            <div class="skill-progress">
+                                <span data-progress="60%"></span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <div class="name">
+                                <div class="lang">Git Command and Github</div>
+                                <div>60%</div>
+                            </div>
+                            <div class="skill-progress">
+                                <span data-progress="60%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="skill-box">
-            <div class="name">CSS</div>
-            <div class="skill-progress">
-                <span data-progress="80%">80%</span>
-            </div>
-        </div>
-        <div class="skill-box">
-            <div class="name">Bootstrap</div>
-            <div class="skill-progress">
-                <span data-progress="75%">75%</span>
-            </div>
-        </div>
-        <div class="skill-box">
-            <div class="name">Javascript</div>
-            <div class="skill-progress">
-                <span data-progress="60%">70%</span>
-            </div>
-        </div>
-        <div class="skill-box">
-            <div class="name">JQuery</div>
-            <div class="skill-progress">
-                <span data-progress="30%">55%</span>
-            </div>
-        </div>
-        <div class="skill-box">
-            <div class="name">PHP</div>
-            <div class="skill-progress">
-                <span data-progress="75%">75%</span>
-            </div>
-        </div>
-        <div class="skill-box">
-            <div class="name">OOP WITH MC</div>
-            <div class="skill-progress">
-                <span data-progress="65%">65%</span>
-            </div>
-        </div>
-        <div class="skill-box">
-            <div class="name">Mysql and sql</div>
-            <div class="skill-progress">
-                <span data-progress="80%">80%</span>
-            </div>
-        </div>
-        <div class="skill-box">
-            <div class="name">AJAX</div>
-            <div class="skill-progress">
-                <span data-progress="60%">60%</span>
-            </div>
-        </div>
-        <div class="skill-box">
-            <div class="name">C++</div>
-            <div class="skill-progress">
-                <span data-progress="70%">70%</span>
-            </div>
-        </div>
-        <div class="skill-box">
-            <div class="name">Problem solving</div>
-            <div class="skill-progress">
-                <span data-progress="60%">60%</span>
+            <div class="skills-box">
+                <div class="skills-main-header">Languages</div>
+                <div class="language-skills">
+                    <div class="right">
+                        <div class="skill-box">
+                            <div class="name">
+                                <div class="lang">Arabic</div>
+                                <div>100%</div>
+                            </div>
+                            <div class="skill-progress">
+                                <span data-progress="100%"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="skill-box">
+                            <div class="name">
+                                <div class="lang">English</div>
+                                <div>60%</div>
+                            </div>
+                            <div class="skill-progress">
+                                <span data-progress="60%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -207,46 +230,41 @@
 <!-- Start Timeline -->
 <div class="timeline">
     <div class="container">
+        <h2 class="main-header" style="text-align:center"><span>MY EDUCATION</span> </h2>
         <div class="timeline-content">
+            <div class="year">2018 - Present</div>
 
-            <div class="year">2018</div>
-
             <div class="left">
                 <div class="content">
-                    <h3>Testing Heading</h3>
-                    <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disputando cu set
-                        Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat.</p>
+                    <h3>Bachelor Degree</h3>
+                    <span>Al-AlBayt University</span>
+                    <span>Computer Science Major</span>
+                    <span>
+                        <strong>IT College</strong>
+                        &nbsp; Feb 2018 - Present
+                        
+                    </span>
+                    <span>B.CS</span>
                 </div>
             </div>
             <div class="clearfix"></div>
-            <div class="right">
-                <div class="content">
-                    <h3>Testing Heading</h3>
-                    <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disputando cu set
-                        Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat.</p>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="year">2016</div>
-            <div class="left">
-                <div class="content">
-                    <h3>Testing Heading</h3>
-                    <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disputando cu set
-                        Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat.</p>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="left">
-                <div class="content">
-                    <h3>Testing Heading</h3>
-                    <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat, purto brute disputando cu set
-                        Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, te usu virtute placerat.</p>
-                </div>
-            </div>
         </div>
     </div>
 </div>
 <!-- End Timeline -->
+<!-- Start Resume -->
+<div class="resume">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="header-resume">
+            <h2 class="main-header"><span>My Resume</span></h2>
+            <div></div>
+            <p>To view my resume, click on the download button below</p>
+            <a href="images/Loai_Mustafa%20Abd-Elqader_Resume.pdf" download="download" class="download-resume">Download Resume</a>
+        </div>
+    </div>
+</div>
+<!-- End Resume -->
 <!-- Start Features -->
 <div class="features">
     <h2>Our Features</h2>
@@ -285,17 +303,8 @@
     </div>
 </div>
 <!-- End Features -->
-<!-- Start Resume -->
-<div class="resume">
-    <div class="container">
-        <h2>Resume</h2>
-        <p>To view my resume, click on the download button below</p>
-        <a href="images/Loai_Mustafa%20Abd-Elqader_Resume.pdf" download="download" class="download-resume">Download Resume</a>
-    </div>
-</div>
-<!-- End Resume -->
 <!-- Start Testimonials -->
-<div class="testimonials">
+<!-- <div class="testimonials">
     <div class="container">
         <h2>Testimonials</h2>
         <div class="ts-box">
@@ -324,7 +333,7 @@
         </div>
     </div>
     <div class="clearfix"></div>
-</div>
+</div> -->
 <!-- End Testimonials -->
 
 <!-- Start Contact Us -->
