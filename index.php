@@ -18,20 +18,12 @@
             </ul>
         </div>
         <div class="option-box">
-            <h4>Random Background</h4>
-            <div class="random-backgrounds">
-                <span class="yes active" data-background="yes">Yes</span>
-                <span class="no" data-background="no">No</span>
-            </div>
-        </div>
-        <div class="option-box">
             <h4>Show Bullets</h4>
             <div class="bullets-option">
                 <span class="yes active" data-display="show">Yes</span>
                 <span class="no" data-display="hide">No</span>
             </div>
         </div>
-        <button class="reset-options">Reset Options</button>
     </div>
 </div>
 <!-- End Settings Box -->
@@ -207,25 +199,21 @@
 </div>
 <!-- End Our Skills -->
 
-<!-- Start Gallery -->
-<div class="gallery">
+<!-- Start Resume -->
+<div class="resume">
+    <div class="overlay"></div>
     <div class="container">
-        <h2>Our Gallery</h2>
-        <div class="images-box">
-            <img src="images/p1.png" alt="Image-One">
-            <img src="images/p2.jpg" alt="Image-Two">
-            <img src="images/p3.jpg" alt="Image-Three">
-            <img src="images/p4.jpg" alt="Image-Four">
-            <img src="images/p5.jpg" alt="Image-Five">
-            <img src="images/p10.png" alt="">
-            <img src="images/p7.jpg" alt="">
-            <img src="images/p8.jpg" alt="">
-            <img src="images/p9.jpg" alt="">
-            <img src="images/p6.jpg" alt="">
+        <div class="header-resume">
+            <h2 class="main-header"><span>My Resume</span></h2>
+            <div></div>
+            <p>To view my resume, click on the download button below</p>
+            <a href="images/Loai_Mustafa%20Abd-Elqader_Resume.pdf" download="download" class="download-resume">Download Resume</a>
         </div>
     </div>
 </div>
-<!-- End Gallery -->
+<!-- End Resume -->
+
+
 
 <!-- Start Timeline -->
 <div class="timeline">
@@ -252,94 +240,50 @@
     </div>
 </div>
 <!-- End Timeline -->
-<!-- Start Resume -->
-<div class="resume">
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="header-resume">
-            <h2 class="main-header"><span>My Resume</span></h2>
-            <div></div>
-            <p>To view my resume, click on the download button below</p>
-            <a href="images/Loai_Mustafa%20Abd-Elqader_Resume.pdf" download="download" class="download-resume">Download Resume</a>
-        </div>
-    </div>
-</div>
-<!-- End Resume -->
 <!-- Start Features -->
 <div class="features">
-    <h2>Our Features</h2>
+    <h2 class="main-header"><span> Our Features</span></h2>
     <div class="container">
         <div class="feat-box">
             <img src="images/icon_p1.png" alt="">
             <h4>Development</h4>
-            <p>We Are Professional Marketeers, We Will Do anything You Imagine In No Time</p>
         </div>
         <div class="feat-box">
             <img src="images/icon_p2.png" alt="">
-            <h4>Development</h4>
-            <p>We Are Professional Marketeers, We Will Do anything You Imagine In No Time</p>
-        </div>
-        <div class="feat-box">
-            <img src="images/icon_p4.webp" alt="">
-            <h4>Development</h4>
-            <p>We Are Professional Marketeers, We Will Do anything You Imagine In No Time</p>
-        </div>
-        <div class="feat-box">
-            <img src="images/icon_p4.png" alt="">
-            <h4>Development</h4>
-            <p>We Are Professional Marketeers, We Will Do anything You Imagine In No Time</p>
+            <h4>Poblem Solving</h4>
         </div>
         <div class="feat-box">
             <img src="images/icon_p5.png" alt="">
-            <h4>Development</h4>
-            <p>We Are Professional Marketeers, We Will Do anything You Imagine In No Time</p>
+            <h4>Searching</h4>
+        </div>
+        <div class="feat-box">
+            <img src="images/icon_p4.webp" alt="">
+            <h4>Self Learning</h4>
+        </div>
+        <div class="feat-box">
+            <img src="images/icon_p4.png" alt="">
+            <h4>Team Work</h4>
         </div>
         <div class="feat-box">
             <img src="images/icon_p6.png" alt="">
-            <h4>Development</h4>
-            <p>We Are Professional Marketeers, We Will Do anything You Imagine In No Time</p>
+            <h4>Hard Working</h4>
         </div>
         <div class="clearfix"></div>
     </div>
 </div>
 <!-- End Features -->
-<!-- Start Testimonials -->
-<!-- <div class="testimonials">
-    <div class="container">
-        <h2>Testimonials</h2>
-        <div class="ts-box">
-            <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
-            <div class="person-info">
-                <img src="https://placehold.it/80/DDD" alt="">
-                <h4>Ahmad Mosaad</h4>
-                <p>CEO At Comapany</p>
-            </div>
-        </div>
-        <div class="ts-box">
-            <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
-            <div class="person-info">
-                <img src="https://placehold.it/80/EEE" alt="">
-                <h4>Mohaamad Ibrahim</h4>
-                <p>CEO At Comapany</p>
-            </div>
-        </div>
-        <div class="ts-box">
-            <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
-            <div class="person-info">
-                <img src="https://placehold.it/80/AAA" alt="">
-                <h4>Sherief Ashraf</h4>
-                <p>CEO At Comapany</p>
-            </div>
-        </div>
-    </div>
-    <div class="clearfix"></div>
-</div> -->
-<!-- End Testimonials -->
 
 <!-- Start Contact Us -->
 <div class="contact-my">
+    <h2>Contact Me</h2>
+    <div class="social-media">
+        <a class="facebook" href="https://www.facebook.com/loai.moustfa/"><i class="fab fa-facebook-square"></i></a>
+        <a class="twitter" href="https://twitter.com/loaimustafa3"><i class="fab fa-twitter-square"></i></a>
+        <a class="github" href="https://github.com/LoaiMustafa99"><i class="fab fa-github"></i></a>
+        <a class="linkedin" href="https://www.linkedin.com/in/loai-mustafa-597547199/"><i class="fab fa-linkedin"></i></a>
+    </div>
     <p>
-        <a href="contact.php">To send a message via e-mail, click here <i class="far fa-arrow-alt-circle-right"></i></a>
+        <a href="contact.php">Send Message To Me <i class="far fa-arrow-alt-circle-right"></i></a>
     </p>
 </div>
 <!-- End Contact Us -->

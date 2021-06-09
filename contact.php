@@ -5,7 +5,7 @@
         <div class="contact">
             <div class="overlay"></div>
             <div class="container">
-                <h2>Contact US</h2>
+                <h2 class="main-header"><span>Contact US</span> </h2>
                 <form action="">
                     <div class="left">
                         <input type="text" placeholder="Your Name" name="username">

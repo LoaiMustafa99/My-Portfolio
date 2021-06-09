@@ -15,7 +15,7 @@
     <ul class="link">
         <li><a href="index.php"> Home</a></li>
         <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="my_work.php">Projects</a></li>
         <li><a href="contact.php">Contact</a></li>
     </ul>
 </div>

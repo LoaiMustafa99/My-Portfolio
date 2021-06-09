@@ -1,4 +1,4 @@
-        <div class="footer">Copyright © 2020 Loai Mustafa</div>
+        <div class="footer">Created By Loai Mustafa ©</div>
         <?php if(isset($indexstyle) && $indexstyle == true): ?>
             <script src="js/jquery-3.5.1.min.js"></script>
             <script src="js/typed.js"></script>
