@@ -11,5 +11,8 @@
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Viaoda+Libre&display=swap" rel="stylesheet">
 </head>
 <body>

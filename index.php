@@ -1,5 +1,7 @@
 <?php $indexstyle = true; include ("includes/header.php");?>
 
+<?php include("includes/loading.php") ?>
+
 <?php $tophome = true; require_once("includes/top_nav.php"); ?>
 <!-- Start Settings Box -->
 <div class="settings-box">
